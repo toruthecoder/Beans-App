@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "White Gold",
+        "price": 2000,
+        "image": "images/Beans-1.png"
+    },
+    
+    {
+        "id": 2,
+        "name": "Guatemala",
+        "price": 3000,
+        "image": "images/Beans-2.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Signature Blend",
+        "price": 5000,
+        "image": "images/Beans-3.png"
+    }
+]

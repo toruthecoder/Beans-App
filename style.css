@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Wrapper class */
+.wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+/* navbar class */
+
+.logo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.logo h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #ac663e;
+    letter-spacing: 5px;
+    font-size: 2.75rem;
+}
+
+/* Navbar Ends Here */
+
+/* Header Starts Here  */
+.header {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.textparaStuff h1 {
+    font-weight: 490;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+
+.textparaStuff p {
+    margin-top: 15px;
+}
+
+.imgStuff {
+    overflow: hidden;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+
+.imgStuff img {
+    width: 320px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+.btn button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn button:hover {
+    background-color: #b37958;
+}
+
+/* ANd Ends Here  */
+
+/* Navigate Starts Here  */
+.navigate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 170px;
+}
+
+.navigate a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.15rem;
+}
+
+
+.navigate a:hover {
+    color: #ac663e;
+    text-decoration: underline;
+}
+
+/* And Ends Here */
+
+/* More About Beans Starts Here */
+.moreaboutbeans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    gap: 50px;
+}
+
+.imgStuff1 {
+    overflow: hidden;
+    width: 40vw;
+    height: 25vw;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.imgStuff1 img {
+    width: 600px;
+    border-radius: 5px;
+}
+
+.textparaStuff1 h1 {
+    font-weight: 490;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+}
+
+.textparaStuff1 p {
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+    margin-top: 25px;
+}
+
+.btn1 button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn1 button:hover {
+    background-color: #b37958;
+}
+
+/* Ends Here */
+
+/* Impact Starts Here */
+.impact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    gap: 50px;
+}
+
+.imgStuff2 {
+    overflow: hidden;
+    width: 35vw;
+    height: 25vw;
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.imgStuff2 img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.textparaStuff2 {
+    margin-left: 60px;
+}
+
+.textparaStuff2 h1 {
+    font-weight: 490;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 90px;
+}
+
+.textparaStuff2 p {
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn2 {
+    margin-top: 25px;
+}
+
+.btn2 button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn2 button:hover {
+    background-color: #b37958;
+}
+
+/* Ends Here */
+
+/* Review Start Here */
+.review {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.review button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.review button:hover {
+    background-color: #b37958;
+}
+
+.review span {
+    margin-left: 550px;
+}
+
+.review span i {
+    margin-left: 5px;
+}
+
+.angleup {
+    margin-top: -15px;
+}
+
+.switch {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: 20px;
+    gap: 30px;
+    font-family: "Poppins", sans-serif;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.switch.toggle {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.switch button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.switch button:hover {
+    background-color: #b37958;
+}
+
+.name {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name i {
+    margin-right: 5px;
+}
+
+.name p {
+    margin-left: -290px;
+}
+
+.review-btn {
+    transition: transform 0.2s ease;
+}
+
+/* Review Ends Here */
+
+/* Product Starts Here */
+.product {
+    margin: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.p1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.p1:hover {
+    border: 1px solid #777;
+}
+
+.p1 img {
+    width: 25vw;
+    margin: 10px 0px;
+}
+
+.pr1 {
+    margin-top: 5px;
+}
+
+.n1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.p1:first-child {
+    margin-left: 15vw;
+}
+
+.p1:last-child {
+    margin-left: 30vw;
+}
+
+.p1 button {
+    margin: 20px 0px;
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.p1 button:hover {
+    background-color: #b37958;
+}
+
+/* Product Ends Here */
+
+/* NewsLetter Start */
+.newsletter {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.news h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    margin-top: 90px;
+    width: 50vw;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: #fff !important;
+    transition: background-color 0s;
+    color: black;
+}
+
+.input button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.input i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Newsletter End */
+
+/* Footer Start */
+.footer {
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+}
+
+.footer h1 {
+    margin-right: 600px;
+    font-weight: 500;
+}
+
+.footer ul {
+    display: flex;
+    gap: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+/* Footer Ends  */
+
+/* Cart Start */
+.cart {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+
+.cart button {
+    padding: 15px 15px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: 0.5px solid grey;
+    color: #fff;
+    background-color: #ac663e;
+    cursor: pointer;
+}
+
+.cartContent {
+    font-family: "Poppins", sans-serif;
+    display: none;
+    border: 0.15px solid grey;
+    position: fixed;
+    bottom: 50px;
+    right: 95px;
+    padding: 20px;
+    background-color: #e9e9e9;
+}
+
+.cartContent h2 {
+    margin-bottom: 20px;
+}
+
+.cartContent h2 {
+    padding-right: 90px;
+}
+
+.cartContent h2 i {
+    margin-left: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+}
+
+.cartContent ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.cartContent ul li button.remove-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -29px;
+    right: 0;
+    color: black;
+    display: block;
+}
+
+.cartContent button {
+    color: #fff;
+    background-color: #ac663e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-left: 90px;
+    display: none;
+}
+
+.cartContent button:hover {
+    background-color: #b37958;
+}
+
+/* Ends */
+
+/* Mobile responsive  Start */
+@media only screen and (max-width: 600px) {
+    .logo {
+        padding-right: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .textparaStuff h1 {
+        font-size: 2 rem;
+    }
+
+    .imgStuff {
+        width: 60vw;
+        height: 70vw;
+        margin-left: 0px;
+    }
+
+    /* Navigate Starts Here  */
+    .navigate {
+        gap: 50px;
+    }
+
+    /* And Ends Here */
+
+    .moreaboutbeans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        padding-bottom: 40px;
+        gap: 50px;
+    }
+
+
+    .imgStuff1 {
+        width: 76vw;
+        height: 55vw;
+        margin-left: 0px;
+    }
+
+    .textparaStuff1 h1 {
+        font-size: 1.7rem;
+        margin-top: 0px;
+    }
+
+    .textparaStuff1 p {
+        font-size: 0.9rem;
+    }
+
+    /* Ends Here */
+
+
+    /* Impact Starts Here */
+    .impact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        padding-bottom: 40px;
+        gap: 50px;
+    }
+
+    .imgStuff2 {
+        overflow: hidden;
+        width: 76vw;
+        height: 55vw;
+        margin-left: 0px;
+        border-radius: 5px;
+        margin-top: 0px;
+    }
+
+    .imgStuff2 img {
+        width: 400px;
+        border-radius: 5px;
+    }
+
+    .textparaStuff2 {
+        margin-left: 10px;
+    }
+
+    .textparaStuff2 h1 {
+        font-weight: 490;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        margin-top: 50px;
+    }
+
+    .textparaStuff2 p {
+        font-size: 0.8rem;
+    }
+
+    /* Ends Here */
+
+
+    /* Review Start Here */
+    .review {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .review button {
+        color: #fff;
+        background-color: #ac663e;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .review button:hover {
+        background-color: #b37958;
+    }
+
+    .review span {
+        margin-left: 200px;
+    }
+
+    .review span i {
+        margin-left: 5px;
+    }
+
+    .angleup {
+        margin-top: -15px;
+    }
+
+    .switch {
+        width: 60vw;
+        margin-left: 50px;
+    }
+
+    .switch.toggle {
+        max-height: 500px;
+        opacity: 1;
+    }
+
+    .switch button {
+        color: #fff;
+        background-color: #ac663e;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .switch button:hover {
+        background-color: #b37958;
+    }
+
+    .name {
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .name i {
+        margin-right: 5px;
+    }
+
+    .name p {
+        margin-left: -290px;
+    }
+
+    .review-btn {
+        transition: transform 0.2s ease;
+    }
+
+    /* Review Ends Here */
+
+    /* Product Starts Here */
+
+    .p1:first-child {
+        margin-left: 0vw;
+    }
+
+    .p1:last-child {
+        margin-left: 0vw;
+    }
+
+    /* Product Ends Here */
+
+    /* NewsLetter Start */
+    .input input {
+        width: 60vw;
+    }
+
+    /* Newsletter End */
+
+    /* Footer Start */
+
+    .footer h1 {
+        margin-right: 190px;
+    }
+
+    .footer ul {
+        gap: 50px;
+    }
+
+    /* Footer Ends  */
+
+
+}
+
+/* End */
+
+
+/* Tablet Responsive Start */
+@media only screen and (max-width: 1200px) {
+
+    /* Product Starts Here */
+    .p1:first-child {
+        margin-left: 10vw;
+    }
+
+    .p1:last-child {
+        margin-left: 10vw;
+    }
+
+    /* Product Ends Here */
+
+    /* Review section */
+    .switch {
+        width: 50vw;
+        margin-left: 180px;
+    }
+
+    /* End */
+
+}
+
+/* End */
